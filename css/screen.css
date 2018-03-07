@@ -5,13 +5,33 @@
     Default markup for page level elements
 */
 
-html {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
-    padding:48px 24px 24px;
+html
+{ font-family: 'Helvetica Neue', Helvetica, arial, sans-serif; 
+    font-size: 16px;  line-height: 1.5;  padding: 48px 24px 24px; color: #111; 
 }
+a
+{ transition: all 1s ease-in-out;
+
+    color: RoyalBlue; 
+}
+a:hover,
+a:focus
+{
+    color: Red;
+}
+
+a:visited,
+a:active
+{
+    color: blueViolet;
+}
+
+hr
+{ height: 1px;  margin: 0 0 24px;
+
+    border: 0;  background: lightGray; 
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -20,15 +40,57 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #e85e00;
-    color: white;
-    text-shadow: none;
-
+::-moz-selection
+{ color: white; 
+    background: #e85e00;  text-shadow: none;
 }
 
-::selection {
-    background: #e85e00;
-    color: white;
-    text-shadow: none;
+::selection
+{ color: white; 
+    background: #e85e00;  text-shadow: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+/*
+    Media Queries
+    ---
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)
+{
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+{
+    html
+    {
+        padding: 48px 48px 24px;
+    }
+    h1
+    {
+        font-size: 58px;  line-height: 64px;
+    }
+}
+
+/* Large devices (landscape tablets, desktops, 992px and up) */
+@media (min-width: 992px)
+{
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
 }
