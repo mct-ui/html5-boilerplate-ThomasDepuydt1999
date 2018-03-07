@@ -1,2 +1,4 @@
-# Create 2 labo start files
-Dit zijn de startfiles voor de labo's van Create 2 van NMCT. In deze module gaan we een HTML/CSS boilerplate maken. Die kan je dan bijhouden voor alle toekomstige webprojecten. Verander de readme zodat het duidelijk is dat dit jouw boilerplate is.
+# HTML5 boilerplate
+
+I am Thomas Depuydt student at Howest.
+This is my HTML5 boilerplate, these are excercises that I made for the lessons Create 2.
